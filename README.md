@@ -4,7 +4,7 @@
 
 <p>
   <ul>
-      <li>Click on the provided hosting link: https://teamsarose.github.io/BitesHubResturant.github.io</li>
+      <li>Click on the provided hosting link: https://teamsarose.github.io/BitesHubResturant</li>
       <li>You should be directed to the web page in your web browser.</li>
   </ul>
 </p>
