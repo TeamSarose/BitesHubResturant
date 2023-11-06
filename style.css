@@ -12,7 +12,7 @@ body,h2{
 }
 
 .landing{                                   /* Main Div Tag */ 
-    background-image: url('media/Spicy.jpg');
+    background-image: url('media/burger.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -35,7 +35,7 @@ header{
 
 #logo{
     flex:3;
-    font-size: 1.25em;
+    font-size: 1.50em;
     min-width: 260px;
 }
 
@@ -47,6 +47,9 @@ nav{               /* nav Bar Section */
 
 nav a{
     flex:1; 
+    font-weight: bold;
+    font-size: 1.1em;
+
 }
 
 nav a:hover{
@@ -66,13 +69,15 @@ header h2 i,nav a i{
     }
 
 .tagline1{
-    color:var(--red);
+    color:#fff700;
     font-size: 2.5em;
     font-weight: bolder;
 }
 
 .tagline2{                  
     color: var(--yellow);
+    font-size: 1.2em;
+
 }
 
 .maintext div{            /* Spcae Between Taglines */
@@ -85,14 +90,14 @@ header h2 i,nav a i{
     padding: .7em;
     border-radius: 10px;
     background-color: var(--green);
-    color: var(--white);
+    color:#d16603;
     border: 1px solid var(--green);
 }
 
 .menu{           /* Styling Menu Tables */
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
-    background:linear-gradient(to right,rgb(133, 130, 130),rgb(61, 60, 60) );
+    background:linear-gradient(to right,rgb(16,38,37),rgb(23,90,98) );
 }
 
 table{
@@ -115,7 +120,7 @@ table{
     justify-self: right;
 }
 
-.maincourse{
+.Burgers{
     grid-row:span 2;
 }
 
@@ -124,8 +129,8 @@ table{
 }
                      
 #menuheading, #locheading{          /* Styling Heading */      
-    background:linear-gradient(to right,rgb(133, 130, 130),rgb(61, 60, 60) );
-    color: var(--red);
+    background:linear-gradient(to right,rgb(16,38,37),rgb(23,90,98) );
+    color: var(--green);
     display: flex;
     justify-content: center;
     padding-top: .8em;
@@ -136,12 +141,13 @@ table{
 }
 
 .menu th{
-    color: var(--green);
+    color: var(--yellow);
     font-size: 1.8em;
+    margin-bottom: 0.8em;
 }
                
 .locations{              /* Styling Location */
-    background:linear-gradient(to right,rgb(133, 130, 130),rgb(61, 60, 60) );
+    background:linear-gradient(to right,rgb(16,38,37),rgb(23,90,98) );
     color: var(--white);
     display: flex;
     flex-wrap: wrap;
@@ -149,8 +155,9 @@ table{
 }
 
 .locations h2{
-    color: var(--green);
+    color: var(--yellow);
     margin-bottom: .8em;
+
 }
 
 .locations div{
@@ -161,7 +168,7 @@ table{
 }
 
 footer{                 /* Styling Footer */
-    background-color:rgb(48, 47, 47);
+    background-color:rgb(41, 40, 40);
     color: var(--white);
     padding: .25em 1em;
 }
@@ -169,12 +176,13 @@ footer{                 /* Styling Footer */
 .footer-content {
     display: flex;
     align-items: center;
-    padding: 10px 20px;
-    height: 50px;
+    padding: 28px 20px;
+    height: 10px;
 }
 
 #copyright{             /* Styling Social Menu */
     margin-left:20px;
+    margin-right:3px;
 }
 .social-menu ul{
     display: flex;
